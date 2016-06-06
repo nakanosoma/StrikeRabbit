@@ -1,0 +1,214 @@
+
+    (STROKE 
+        (RECTANGLE 
+            (
+                (
+                    (START 
+                        (XY 
+                            (
+                                (INTEGER 100)
+                                (INTEGER 100))))
+                    (END 
+                        (XY 
+                            (
+                                (INTEGER 200)
+                                (INTEGER 150)))))
+                (COW 
+                    (
+                        (INTEGER 3)
+                        (COLOR red))))))
+
+    (FILL 
+        (RECTANGLE 
+            (
+                (
+                    (START 
+                        (XY 
+                            (
+                                (INTEGER 250)
+                                (INTEGER 100))))
+                    (END 
+                        (XY 
+                            (
+                                (INTEGER 350)
+                                (INTEGER 150)))))
+                (COW 
+                    (COLOR green)))))
+
+    (STROKE 
+        (RECTANGLE 
+            (
+                (
+                    (START 
+                        (XY 
+                            (
+                                (INTEGER 400)
+                                (INTEGER 100))))
+                    (END 
+                        (XY 
+                            (
+                                (INTEGER 500)
+                                (INTEGER 150)))))
+                (COW 
+                    (
+                        (COLOR blue)
+                        (INTEGER 5))))))
+
+    (STROKE 
+        (LINE 
+            (
+                (
+                    (START 
+                        (XY 
+                            (
+                                (INTEGER 100)
+                                (INTEGER 200))))
+                    (
+                        (
+                            (PASS 
+                                (XY 
+                                    (
+                                        (INTEGER 140)
+                                        (INTEGER 300))))
+                            (PASS 
+                                (XY 
+                                    (
+                                        (INTEGER 160)
+                                        (INTEGER 200)))))
+                        (END 
+                            (XY 
+                                (
+                                    (INTEGER 200)
+                                    (INTEGER 300))))))
+                (COW 
+                    (
+                        (INTEGER 2)
+                        (COLOR cyan))))))
+
+    (FILL 
+        (LINE 
+            (
+                (
+                    (START 
+                        (XY 
+                            (
+                                (INTEGER 250)
+                                (INTEGER 200))))
+                    (
+                        (
+                            (PASS 
+                                (XY 
+                                    (
+                                        (INTEGER 290)
+                                        (INTEGER 300))))
+                            (PASS 
+                                (XY 
+                                    (
+                                        (INTEGER 310)
+                                        (INTEGER 200)))))
+                        (END 
+                            (XY 
+                                (
+                                    (INTEGER 350)
+                                    (INTEGER 300))))))
+                (COW 
+                    (COLOR magenta)))))
+
+    (STROKE 
+        (LINE 
+            (
+                (
+                    (START 
+                        (XY 
+                            (
+                                (INTEGER 400)
+                                (INTEGER 200))))
+                    (
+                        (
+                            (PASS 
+                                (XY 
+                                    (
+                                        (INTEGER 440)
+                                        (INTEGER 300))))
+                            (PASS 
+                                (XY 
+                                    (
+                                        (INTEGER 460)
+                                        (INTEGER 200)))))
+                        (END 
+                            (XY 
+                                (
+                                    (INTEGER 500)
+                                    (INTEGER 300))))))
+                (COW 
+                    (
+                        (COLOR yellow)
+                        (INTEGER 5))))))
+
+    (STROKE 
+        (ARC 
+            (
+                (
+                    (
+                        (START 
+                            (XY 
+                                (
+                                    (INTEGER 100)
+                                    (INTEGER 350))))
+                        (END 
+                            (XY 
+                                (
+                                    (INTEGER 200)
+                                    (INTEGER 450)))))
+                    (
+                        (ANGLE 
+                            (INTEGER 0))
+                        (SWEEP 
+                            (INTEGER 300))))
+                (COW 
+                    (
+                        (COLOR black)
+                        (INTEGER 3))))))
+
+    (FILL 
+        (ARC 
+            (
+                (
+                    (
+                        (START 
+                            (XY 
+                                (
+                                    (INTEGER 250)
+                                    (INTEGER 350))))
+                        (END 
+                            (XY 
+                                (
+                                    (INTEGER 350)
+                                    (INTEGER 450)))))
+                    (
+                        (ANGLE 
+                            (INTEGER 0))
+                        (SWEEP 
+                            (INTEGER 300))))
+                (COW 
+                    (COLOR gray)))))
+
+    (DISPLAY 
+        (STRING 
+            (
+                (AT 
+                    (XY 
+                        (
+                            (INTEGER 430)
+                            (INTEGER 390))))
+                (WQUOTED "ASAOKA"))))
+
+    (DISPLAY 
+        (IMAGE 
+            (
+                (AT 
+                    (XY 
+                        (
+                            (INTEGER 550)
+                            (INTEGER 50))))
+                (WQUOTED "http://aokilab.kyoto-su.ac.jp/documents/BlackBook/images/BlackBookFrontPage335x432.jpg"))))

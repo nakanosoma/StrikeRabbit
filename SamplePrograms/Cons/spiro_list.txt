@@ -1,0 +1,3 @@
+# SpiroDesign at 2011/01/15 16:55:12
+
+(spiro.SpiroModel (spur spiro.SpurGear (center (x . 0.0) (y . 0.0)) (radius . 200.0)) (pinion spiro.PinionGear (center (x . 150.0) (y . 0.0)) (radius . 50.0) (pen (x . 175.0) (y . 0.0)) (color (r . 255) (g . 200) (b . 0)) (nib . 2) (degrees . 0.0)) (inscribe . true) (tick . 100) (locus spiro.DesignLocus (spur spiro.SpurGear (center (x . 0.0) (y . 0.0)) (radius . 200.0)) (pinions)) (loci))
