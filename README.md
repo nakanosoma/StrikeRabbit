@@ -1,2 +1,0 @@
-# StrikeRabbit
-Software Engineering Ⅱ
